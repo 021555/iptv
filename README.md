@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPTV直播源 (定期更新)</title>
-    <style>
-        body {
-            margin: 0 auto;
-            width: 80%; /* 设置页面宽度 */
-            max-width: 800px; /* 设置页面最大宽度 */
-            font-family: Arial, sans-serif;
-            padding: 20px; /* 为内容添加一些内边距 */
-        }
 
-        h1 {
-            font-size: 36px;
-            text-align: center; /* 将标题居中显示 */
-        }
-
-        h2 {
-            font-size: 24px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
 <body>
     <h1>IPTV直播源 (定期更新)</h1>
 
