@@ -1,4 +1,4 @@
-﻿#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
+﻿#EXTM3U url-tvg="https://epg.deny.vip/sh/tel-epg.xml" x-tvg-url="https://epg.deny.vip/sh/tel-epg.xml"
 #EXTINF:-1 tvg-name="上视新闻" tvg-logo="https://live.fanmingming.com/tv/上视新闻.png" group-title="上海频道",上视新闻
 http://10.0.0.251:4022/udp/239.45.3.209:5140
 #EXTINF:-1 tvg-name="五星体育" tvg-logo="https://live.fanmingming.com/tv/五星体育.png" group-title="上海频道",五星体育
