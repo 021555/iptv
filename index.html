@@ -34,24 +34,63 @@
 </head>
 <body>
     <h1>IPTV直播源 (定期更新)</h1>
-
-    <h2>上海移动内网访问：</h2>
-    <ul>
-        <li><a href="https://iptv.021555.xyz/cmcc.txt">上海移动txt</a></li>
-        <li><a href="https://iptv.021555.xyz/cmcc.m3u">上海移动m3u</a></li>
-    </ul>
     
-    <h2>上海联通内网访问：</h2>
-    <ul>
-        <li><a href="https://iptv.021555.xyz/shlt.txt">上海联通txt</a></li>
-        <li><a href="https://iptv.021555.xyz/shlt.m3u">上海联通m3u</a></li>
-    </ul>
+<h2>上海移动内网访问：</h2>
+<ul>
+    <li><a href="https://iptv.021555.xyz/cmcc.txt" onclick="copyLink(event)">上海移动txt</a></li>
+    <li><a href="https://iptv.021555.xyz/cmcc.m3u" onclick="copyLink(event)">上海移动m3u</a></li>
+</ul>
 
-    <h2>上海电信内网访问：</h2>
-    <ul>
-        <li><a href="https://iptv.021555.xyz/shdx.txt">上海电信txt</a></li>
-        <li><a href="https://iptv.021555.xyz/shdx.m3u">上海电信m3u</a></li>
-    </ul>
+<script>
+function copyLink(event) {
+    // 阻止默认的链接跳转行为
+    event.preventDefault();
+    
+    // 获取链接地址
+    const link = event.currentTarget.href;
+    
+    // 使用Clipboard API复制链接
+    navigator.clipboard.writeText(link)
+        .then(() => {
+            // 复制成功提示
+            alert('链接已复制: ' + link);
+        })
+        .catch(err => {
+            // 复制失败处理
+            console.error('复制失败:', err);
+            alert('复制失败，请手动复制链接');
+        });
+}
+</script>
+
+<h2>上海联通内网访问：</h2>
+<ul>
+    <li><a href="https://iptv.021555.xyz/shlt.txt" onclick="copyLink(event)">上海联通txt</a></li>
+    <li><a href="https://iptv.021555.xyz/shlt.m3u" onclick="copyLink(event)">上海联通m3u</a></li>
+</ul>
+
+<script>
+function copyLink(event) {
+    // 阻止默认的链接跳转行为
+    event.preventDefault();
+    
+    // 获取链接地址
+    const link = event.currentTarget.href;
+    
+    // 使用Clipboard API复制链接
+    navigator.clipboard.writeText(link)
+        .then(() => {
+            // 复制成功提示
+            alert('链接已复制: ' + link);
+        })
+        .catch(err => {
+            // 复制失败处理
+            console.error('复制失败:', err);
+            alert('复制失败，请手动复制链接');
+        });
+}
+</script>
+  
    <h2>上海电信内网访问：</h2>
 <ul>
     <li><a href="https://iptv.021555.xyz/shdx.txt" onclick="copyLink(event)">上海电信txt</a></li>
@@ -81,7 +120,7 @@ function copyLink(event) {
 </script>
 
     
-    <h2>IPV6访问：</h2>
+    <h2>IPV6访问：（失效）</h2>
     <ul>
         <li><a href="https://iptv.021555.xyz/v6.txt">央视台+卫视台+其他地方台+国外直播源txt</a></li>
         <li><a href="https://iptv.021555.xyz/v6.m3u">央视台+卫视台+其他地方台+国外直播源m3u</a></li>
